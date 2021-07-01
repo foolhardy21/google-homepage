@@ -95,3 +95,25 @@ input {
   color: hsl(0,0%,20%);
   background: hsl(0,0%,98%);
 }
+
+.lang{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.lang span {
+  text-transform: capitalize;
+}
+.lang ul {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+}
+.lang li {
+  margin-left: 5px;
+  color: hsl(250,100%,35%);
+}
+.lang li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
