@@ -69,3 +69,29 @@ input {
   margin-left: 725px;
   margin-top: -35px;
 }
+
+.btn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.search-btn {
+  text-transform: capitalize;
+  padding: 0.8em 1.3em;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 0.95rem;
+  color: hsl(0,0%,20%);
+  background: hsl(0,0%,98%);
+}
+.lucky-btn {
+  text-transform: capitalize;
+  padding: 0.8em 1.3em;
+  margin-right: 15px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 0.95rem;
+  color: hsl(0,0%,20%);
+  background: hsl(0,0%,98%);
+}
