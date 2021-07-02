@@ -158,7 +158,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-top: thin solid hsl(0,0%,80%);
-  height: 50px;
+  min-height: 50px;
 }
 footer ul {
   display: flex;
@@ -174,4 +174,20 @@ footer li {
 footer li:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+
+@media (max-width: 1300px) {
+  .footer-menu {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 750px) {
+  .search-bar {
+    max-width: 85%;
+  }
+  .footer-menu {
+    flex-direction: column;
+  }
 }
